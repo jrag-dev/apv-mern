@@ -1,0 +1,44 @@
+{
+  "name": "apv-backend",
+  "version": "1.0.0",
+  "description": "Aplicación para una clinica veterinaria usando el MERN Stack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --env-file=.env src/index.ts",
+    "build": "tsc",
+    "start": "node --env-file=.env build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrag-dev/apv-mern.git"
+  },
+  "keywords": [
+    "apv",
+    "veterinaria",
+    "clinica",
+    "veterinaria",
+    "mascotas",
+    "perros",
+    "gatos"
+  ],
+  "author": "José Alvarado - josealvarado@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrag-dev/apv-mern/issues"
+  },
+  "homepage": "https://github.com/jrag-dev/apv-mern#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "morgan": "^1.10.0"
+  }
+}
